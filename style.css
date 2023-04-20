@@ -38,7 +38,11 @@
 }
 .header .header-container #navbar .list-item a{
     text-decoration: none;
-    
+    color:#3C486B;
+    font-weight: bold;
+}
+.header .header-container #navbar .list-item a:hover{
+    color: #B2A4FF;
 }
 .header .header-container nav .icon{
     display: flex;
