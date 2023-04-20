@@ -54,7 +54,7 @@
     font-size: 18px;
     margin-right: 0;
 }
-.header .header-container nav .icon button{
+.header .header-container nav .icon .search-icon{
     border: 0;
     outline: 0;
     background-color: red;
@@ -73,7 +73,7 @@
     align-items: center;
     
 }
-.bg-image .image{
+.bg-image .home-image{
     background-image: url(images/home-image.jpg);
     background-size: cover;
     background-position: center;
