@@ -71,7 +71,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+.header .header-container nav .icon .right-icons{
+    margin-left: 50px;
+}
+.header .header-container nav .icon .fa-cart-shopping,
+.header .header-container nav .icon .fa-user{
+    margin-left: 5px;
 }
 .bg-image .home-image{
     background-image: url(images/home-image.jpg);
