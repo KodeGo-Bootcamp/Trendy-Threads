@@ -25,13 +25,11 @@
 .header .header-container nav{
     display: flex;
     align-items: center;
-    
 }
 .header .header-container nav #navbar{
     display: flex;
     align-items: center;
     justify-content: center;
-   
 }
 .header .header-container #navbar .list-item{
     margin-right: 20px;
@@ -118,6 +116,10 @@
     border-radius: 30px;
     background-color: transparent;
     color: #fff;
+}
+.bg-image .image .txt .shop:hover{
+    background-color:#3C486B;
+    transition: 0.5s;
 }
 .bg-image .social-medias{
     display: flex;
