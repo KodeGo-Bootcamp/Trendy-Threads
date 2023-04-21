@@ -102,11 +102,12 @@
     text-align: center;
     color: #ECECEC;
     font-family: 'Poppins', sans-serif;
-    background: rgba(0, 0, 0, 0.2);
+    /* background: rgba(0, 0, 0, 0.2); */
     border-radius: 10px;
+    padding: 1% 2%;
 }
 .bg-image .image .txt .greeting{
-    font-size: 70px;
+    font-size: 75px;
     letter-spacing: 3px;
 }
 .bg-image .image .txt .shop{
