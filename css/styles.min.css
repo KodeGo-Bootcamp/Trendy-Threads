@@ -1,0 +1,152 @@
+@import "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css";
+body {
+  color: #333;
+  font-size: 16px;
+}
+h1 {
+  font-size: 2.25rem;
+}
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+
+}
+.container-fluid {
+  max-width: 1280px;
+}
+a {
+  text-decoration: none !important;
+}
+a :hover,
+a :active,
+a :visited {
+  text-decoration: none !important;
+}
+.text-end a {
+  float: right;
+}
+.breadcrumb {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0;
+}
+.breadcrumb .sep {
+  padding: 0 5px;
+}
+.product {
+  border: 1px solid silver;
+  height: 300px;
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+}
+.product .image {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.product .image img {
+  max-height: 80%;
+  max-width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.product .info {
+  background-color: rgba(85, 86, 153, 0.635);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  min-height: 100%;
+  color: #fff !important;
+  opacity: 0;
+  transition: all 0.25s ease;
+  width: 100%;
+}
+.product .info .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.product :hover > .info {
+  opacity: 1;
+}
+
+/***************************/
+header .bg-image{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-image .image{
+    background-image: url(/image/home-image.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 100%;
+    width: 85%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-image .image .txt{
+    text-align: center;
+    color: #ECECEC;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+.bg-image .image .txt .greeting{
+    font-size: 70px;
+    letter-spacing: 3px;
+}
+.bg-image .image .txt .shop{
+    height: 40px;
+    width: 130px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #fff;
+}
+.bg-image .image .txt .shop a{
+    color: #fff;
+}
+.bg-image .image .txt .shop:hover{
+    background-color: rgba(85, 86, 153, 0.635);
+    transition: 0.5s;
+}
+.bg-image .social-medias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 2%;
+    z-index: 3;
+}
+.bg-image .social-medias i{
+    height: 50px;
+    font-size: 30px;
+}
+.bg-image .social-medias .fa-facebook{
+    color: #0165E1;
+}
+.bg-image .social-medias .fa-twitter{
+    color: #00acee;
+}
+.bg-image .social-medias .fa-instagram{
+    color: #fa7e1e;
+}
+
+/*---------------SECTION-------------- */
+
+
+
+

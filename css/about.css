@@ -1,0 +1,44 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: #212A3E;
+    color: #ECECEC;
+}
+.about .about-container{
+    height: 100%;
+    display: flex;
+    
+   
+}
+.about .about-container .about-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+   
+}
+.about .about-container .about-description p{
+   
+    height: 80%;
+    width: 80%;
+}
+.about .about-container .about-img{
+    width: 50%;
+    height: 100%;
+   
+    
+}
+.about .about-container .about-img img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
