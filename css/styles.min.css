@@ -152,19 +152,14 @@ header .bg-image{
     background-position: center;
     object-fit: cover;
     height: 60%;
-    
     max-width: 80%;
-    margin-left: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
   header .bg-image{
     margin-top:60px;
     
 }
   .bg-image .image .txt .greeting{
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 2px;
     font-weight: bold;
 }
