@@ -9,7 +9,7 @@ $(function () {
 	//loadScript("js/ecommerce.js", cartSetup);
 });
 
-$.get("/templates/navigation.html", function (data) {
+$.get("/navAndFooter/navigation.html", function (data) {
 	if ($(".logout").length) {
 		localStorage.clear();
 	}
@@ -25,7 +25,7 @@ $.get("/templates/navigation.html", function (data) {
 	}
 });
 
-$.get("/templates/footer.html", function (data) {
+$.get("/navAndFooter/footer.html", function (data) {
 	$("#footer-placeholder").replaceWith(data);
 });
 
